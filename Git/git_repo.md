@@ -1,5 +1,7 @@
 # git 계정연동하기
 
+-github에 저장소를 만들고 터미널을 통해서 로컬과 연결하기
+
 ## github 저장소 만들기
 
 - 프로필에 마우스오버하면 목록에 your repositories 선택
