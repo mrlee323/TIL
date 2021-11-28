@@ -1,12 +1,12 @@
-#git 계정연동하기
+# git 계정연동하기
 
-##github 저장소 만들기
+## github 저장소 만들기
 
 - 프로필에 마우스오버하면 목록에 your repositories 선택
 - new 아이콘을 눌러서 pository name을 적고 Public에 체크 Add a README file에 체크하고 생성
 - 생성후 code 아이콘 선택 후 저장소 url주소를 복사 
 
-##터미널에서 git clone하기
+## 터미널에서 git clone하기
 
 -저장소를 저장할 폴더를 선택후 git clone url주소 ex) git clone https://github.com/mrlee323/TIL.git 입력
 -생성된 TIL 폴더로 이동후 작업 시작 
