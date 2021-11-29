@@ -11,7 +11,7 @@
 - 문서이동으로 가서 cloud firestore으로 들어가서 cloud firestore 시작하기 클릭
 
 
-## cloud firesotre 시작하기
+## cloud firestore 시작하기
 
 - 개발환경 설정 웹버전8 firebase 및 cloud firestore 라이브러리를 앱에 추가
 
