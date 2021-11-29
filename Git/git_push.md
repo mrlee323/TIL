@@ -12,3 +12,10 @@
 - git push origim main -> github로 push/ 여기서 main은 branch name
 - __명령어 한개 끝날때마다 git status로 작업상황을 확인__
 
+## 원격저장소에서 파일 내려받기
+
+- git pull origin master or git pull 입력
+
+- 내려받기후 git log와 ls로 상태 확인
+
+
