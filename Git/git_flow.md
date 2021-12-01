@@ -25,7 +25,7 @@
 
 
 
-![Alt text](./git-flow.png)
+![Alt text](./img/git-flow.png)
 
 ## git flow 사용하기
 
