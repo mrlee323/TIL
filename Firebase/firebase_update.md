@@ -32,7 +32,7 @@
 
   .catch는 상황이 문제가있을때 사용 
 
-```
+```js
 function uploadPhotoInfo (url) {
   // ...
   db.collection("photos").doc(String(photoInfo.id)).set(photoInfo)
@@ -55,7 +55,7 @@ function uploadPhotoInfo (url) {
 
    처음 연결한 이미지 url을 로컬주소의 url로 다른 컴퓨에서는 존재하지 않으므로 모두가 볼 수 있게 서버에 저장된 url주소로 연결
 
-```
+```js
   "url('" + photo.url + "')";
 ```
 - loadPhotos 함수로 사진 불러오기
@@ -66,7 +66,7 @@ function uploadPhotoInfo (url) {
 
   showPhotos(); 새로운사진을 불러서 실행
 
-```
+```js
   function loadPhotos () {
     db.collection("photos").get().then(function (querySnapshot) {
       var photosArray = []
@@ -87,7 +87,7 @@ function uploadPhotoInfo (url) {
 
    db에 photo의 정보를 set하면 setMenu()로 메인페이지 이동하고 loadPhotos()로 새로운정보를 가져옴
 
-```
+```js
   setMenu('gallery');
   loadPhotos();
 ```

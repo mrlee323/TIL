@@ -42,7 +42,7 @@
 
   doc.id를 my_info안에 docID와 연결
 
-```
+```js
     db.collection("my_info").get().then(function (querySnapshot) {
       querySnapshot.forEach(function (doc) {
         my_info = doc.data();
@@ -74,7 +74,7 @@
   loadInfo()함수 실행을 통해 서버에서 데이터를 받아서 다시 데이터 삽입 실행
 
 
-```
+```js
 function updateInfoDB () {
   db.collection("my_info").doc(my_info.docId).update({
     introduction: my_info.introduction,

@@ -5,7 +5,7 @@
 ## firebase storage 시작/설정
 
 - html script에 주소 입력하여 연결
-```
+```html
 <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-storage.js"></script>
 ```
 
@@ -23,7 +23,7 @@
 
   put file을 저장
 
-```
+```js
 function uploadFile () {
   var file = document.querySelector("input[type=file]").files[0];
   var ref = storage.ref().child(file.name);

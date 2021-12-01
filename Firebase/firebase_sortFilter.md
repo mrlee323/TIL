@@ -21,7 +21,7 @@
   이 코드도 정렬과 같은 위치에 삽입 
 
 ## firebase에서 정렬과 필터를 동시사용시 제한사항
-```
+```js
   citiesRef.where("population", ">", 100000).orderBy("country");
 ```
   (2021/11/30) 현재 firebase에서는 위와 같은 orderBy사용을 제한
@@ -43,7 +43,7 @@
 
   함수로 만들지 않고 바로 값을 적으면 로드 순서로 인해 앞에 함수가 실행되기전 이미 값이 정해져 버리기때문이다
 
-```
+```js
   var getFilterParams = {
     all: function () { return ['idx', '>', 0] },
     mine: function () { return ['user_id', '==', my_info.id] },
@@ -59,7 +59,7 @@
 
   결국 아래의 코드는 .where('idx', '>', 0)과 같음 
 
-```
+```js
   .where(
     getFilterParams[filterName]()[0],
     getFilterParams[filterName]()[1],

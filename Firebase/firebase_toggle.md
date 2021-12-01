@@ -18,7 +18,7 @@
 
   db에 컬렉션 photos에 해당.idx를 찾아 likes를 db likes에 반영 하고 다시 loadPhotos(서버데이터 사이트반영)함수 실행
 
-```
+```js
   function toggleLikeOnDB (photo) {
     db.collection("my_info").doc(my_info.docId).update({
       like: my_info.like
@@ -39,7 +39,7 @@
 - showPhotos함수 안에 추가
 
   my_info follow에 각 해당 user_id가 있으면 span을 만들어 FOLLOW를 입력하고 span을 .author에 삽입
-```
+```js
   if (my_info.follow.indexOf(photo.user_id) > -1) {
     var followSpan = document.createElement("span");
     followSpan.innerHTML = "FOLLOW"
@@ -57,7 +57,7 @@
 
   photoNode(article.hidden의 자식까지 포함 전체)에서 .author를 click하면 toggleFollow함수에 photo.user_id매개변수로 실행
 
-```
+```js
   photoNode.querySelector(".author").addEventListener(
   "click", function () { toggleFollow(photo.user_id) }
 ```
@@ -69,7 +69,7 @@
 
   변경사항을 db 컬렉션 my_info에 doc.id에 follow를 반영하고 loadPhotos를 통해 서버에데이터를 다시 사이트로 반영 
 
-```
+```js
   function toggleFollow (user_id) {
     if (my_info.follow.indexOf(user_id) === -1) {
       my_info.follow.push(user_id);
