@@ -1,10 +1,11 @@
 Today I Learned
 ===  
 
-## [HTML & CSS](https://github.com/mrlee323/TIL/blob/main/HTML&CSS)
-- [HTML개요](https://github.com/mrlee323/TIL/blob/main/Firebase/html_basic.md)
-- [CSS개요](https://github.com/mrlee323/TIL/blob/main/Firebase/css_basic.md)
-- [CSS선택자](https://github.com/mrlee323/TIL/blob/main/Firebase/css_selector.md)
+## [HTML & CSS](https://github.com/mrlee323/TIL/blob/main/HTML_CSS)
+- [HTML개요](https://github.com/mrlee323/TIL/blob/main/HTML_CSS/html_basic.md)
+- [CSS개요](https://github.com/mrlee323/TIL/blob/main/HTML_CSS/css_basic.md)
+- [CSS선택자](https://github.com/mrlee323/TIL/blob/main/HTML_CSS/css_selector.md)
+- [CSS선택자](https://github.com/mrlee323/TIL/blob/main/HTML_CSS/css_attribute.md)
 
 ## [Git & Github](https://github.com/mrlee323/TIL/blob/main/Git)
 - [git 계정 연결](https://github.com/mrlee323/TIL/blob/main/Git/git_repo.md)
