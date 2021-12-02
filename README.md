@@ -5,7 +5,7 @@ Today I Learned
 - [HTML개요](https://github.com/mrlee323/TIL/blob/main/HTML_CSS/html_basic.md)
 - [CSS개요](https://github.com/mrlee323/TIL/blob/main/HTML_CSS/css_basic.md)
 - [CSS선택자](https://github.com/mrlee323/TIL/blob/main/HTML_CSS/css_selector.md)
-- [CSS선택자](https://github.com/mrlee323/TIL/blob/main/HTML_CSS/css_attribute.md)
+- [CSS속성](https://github.com/mrlee323/TIL/blob/main/HTML_CSS/css_attribute.md)
 
 ## [Git & Github](https://github.com/mrlee323/TIL/blob/main/Git)
 - [git 계정 연결](https://github.com/mrlee323/TIL/blob/main/Git/git_repo.md)
