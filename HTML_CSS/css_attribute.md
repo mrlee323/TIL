@@ -316,6 +316,6 @@ margin
 - perspective: 600px; 속성 관찬대상의 부모 perspective-origin  (부모요소)
   transform: perspective(600px); 함수 관찰 대상 transform-origin 
 
-- backface-visibility 3D 변환으로 회전된 요소의 뒷면 숨김 여부 
+- backface-visibility 3D 변환으로 회전된 요소의 뒷면 숨김 여부
 
   visible/ hidden
