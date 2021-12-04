@@ -6,6 +6,11 @@ Today I Learned
 - [CSS개요](https://github.com/mrlee323/TIL/blob/main/HTML_CSS/css_basic.md)
 - [CSS선택자](https://github.com/mrlee323/TIL/blob/main/HTML_CSS/css_selector.md)
 - [CSS속성](https://github.com/mrlee323/TIL/blob/main/HTML_CSS/css_attribute.md)
+- [CSS float](https://github.com/mrlee323/TIL/blob/main/HTML_CSS/css_float.md)
+- [CSS position](https://github.com/mrlee323/TIL/blob/main/HTML_CSS/css_position.md)
+
+## [Javasript](ttps://github.com/mrlee323/TIL/blob/main/js)
+- [Javascript 기초](https://github.com/mrlee323/TIL/blob/main/js/js_basic.md)
 
 ## [Git & Github](https://github.com/mrlee323/TIL/blob/main/Git)
 - [git 계정 연결](https://github.com/mrlee323/TIL/blob/main/Git/git_repo.md)
