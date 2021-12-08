@@ -1,4 +1,4 @@
-javascript
+javascript 기초(1)
 ===
 
 # 표기법
