@@ -10,7 +10,9 @@ Today I Learned
 - [CSS position](https://github.com/mrlee323/TIL/blob/main/HTML_CSS/css_position.md)
 
 ## [Javasript](ttps://github.com/mrlee323/TIL/blob/main/js)
-- [Javascript 기초](https://github.com/mrlee323/TIL/blob/main/js/js_basic.md)
+- [node.js](https://github.com/mrlee323/TIL/blob/main/js/node_js.md)
+- [Javascript 기초(1)](https://github.com/mrlee323/TIL/blob/main/js/js_basic.md)
+- [Javascript 기초(2)](https://github.com/mrlee323/TIL/blob/main/js/js_basic2.md)
 
 ## [Git & Github](https://github.com/mrlee323/TIL/blob/main/Git)
 - [git 계정 연결](https://github.com/mrlee323/TIL/blob/main/Git/git_repo.md)
