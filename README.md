@@ -10,7 +10,9 @@ Today I Learned
 - [CSS position](https://github.com/mrlee323/TIL/blob/main/HTML_CSS/css_position.md)
 
 ## [Javasript](ttps://github.com/mrlee323/TIL/blob/main/js)
-- [javascript 메모리구조(1)](https://github.com/mrlee323/TIL/blob/main/js/memory_stucture.md)
+- [javascript 메모리구조](https://github.com/mrlee323/TIL/blob/main/js/memory_stucture.md)
+- [javascript 메모리준비](https://github.com/mrlee323/TIL/blob/main/js/js_memory_ready.md)
+- [javascript 런타임](https://github.com/mrlee323/TIL/blob/main/js/js_works.md)
 - [node.js](https://github.com/mrlee323/TIL/blob/main/js/node_js.md)
 - [Javascript 기초(1)](https://github.com/mrlee323/TIL/blob/main/js/js_basic.md)
 - [Javascript 기초(2)](https://github.com/mrlee323/TIL/blob/main/js/js_basic2.md)
