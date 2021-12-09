@@ -1,7 +1,7 @@
 Javascript
 ===
 
-- [javascript 메모리구조](https://github.com/mrlee323/TIL/blob/main/js/js_memory_stucture.md)
+- [javascript 메모리구조](https://github.com/mrlee323/TIL/blob/main/js/js_memory_structure.md)
 - [javascript 메모리준비](https://github.com/mrlee323/TIL/blob/main/js/js_memory_ready.md)
 - [javascript 런타임](https://github.com/mrlee323/TIL/blob/main/js/js_works.md)
 - [node.js](https://github.com/mrlee323/TIL/blob/main/js/node_js.md)
