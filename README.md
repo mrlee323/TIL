@@ -16,6 +16,8 @@ Today I Learned
 - [node.js](https://github.com/mrlee323/TIL/blob/main/js/node_js.md)
 - [Javascript 기초(1)](https://github.com/mrlee323/TIL/blob/main/js/js_basic.md)
 - [Javascript 기초(2)](https://github.com/mrlee323/TIL/blob/main/js/js_basic2.md)
+- [javascript 슬라이드](https://github.com/mrlee323/TIL/blob/main/js/js_slide.md)
+
 
 ## [Git & Github](https://github.com/mrlee323/TIL/blob/main/Git)
 - [git 계정 연결](https://github.com/mrlee323/TIL/blob/main/Git/git_repo.md)
