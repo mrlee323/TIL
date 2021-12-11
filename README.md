@@ -12,6 +12,7 @@ Today I Learned
 ## [Javasript](ttps://github.com/mrlee323/TIL/blob/main/js)
 - [javascript 메모리구조](https://github.com/mrlee323/TIL/blob/main/js/js_memory_structure.md)
 - [javascript 메모리준비](https://github.com/mrlee323/TIL/blob/main/js/js_memory_ready.md)
+- [javascript 블록스코프](https://github.com/mrlee323/TIL/blob/main/js/js_block_scope.md)
 - [javascript 런타임](https://github.com/mrlee323/TIL/blob/main/js/js_works.md)
 - [node.js](https://github.com/mrlee323/TIL/blob/main/js/node_js.md)
 - [Javascript 기초(1)](https://github.com/mrlee323/TIL/blob/main/js/js_basic.md)
