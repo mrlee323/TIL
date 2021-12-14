@@ -20,7 +20,9 @@ Today I Learned
 - [Javascript 기초(2)](https://github.com/mrlee323/TIL/blob/main/js/js_basic2.md)
 - [Javascript data](https://github.com/mrlee323/TIL/blob/main/js/js_data.md)
 - [Javascript data 실습](https://github.com/mrlee323/TIL/blob/main/js/js_data_practice.md)
+- [Javascript 정규표현식](https://github.com/mrlee323/TIL/blob/main/js/js_regxp.md)
 - [javascript 슬라이드](https://github.com/mrlee323/TIL/blob/main/js/js_slide.md)
+- [Javascript 슬라이드(2)](https://github.com/mrlee323/TIL/blob/main/js/js_slide2.md)
 
 
 ## [Git & Github](https://github.com/mrlee323/TIL/blob/main/Git)
