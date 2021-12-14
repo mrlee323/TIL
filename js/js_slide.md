@@ -99,7 +99,7 @@ function moveSlide (ev){
         moveDist = -liWidth; 
         slider.style.left = `${moveDist}px` //처음위치로
           currentNum = 1; 
-      })
+      }, speedTime)
     } 
   } else {
     move(1);
@@ -109,7 +109,7 @@ function moveSlide (ev){
         moveDist = -liWidth * (slideCloneLis.length-2);
         slider.style.left = `${moveDist}px`;
         currentNum = slideCloneLis.length -2;
-      })
+      }, sppedTime)
     }
   }
 
