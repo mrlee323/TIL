@@ -191,3 +191,52 @@ obj.age = 22
 localStorage. setItm('user', JSON.stringify(obj))
 //obj를 문자화하고 user에 저장한다.
 ```
+## OMDb API
+the Open Movie Database
+- 주소를 통해 영화 데이터를 요청
+
+### Query String 문자 검색
+- 주소?속성=값&속성=값&속성=값  
+- 주소?apiKey=r값&S=영화제목&  
+
+ex) http://www.omdbapi.com/?spikey=7035c60c&s=frozen  
+
+- frozen영화의 대한 정보 json fomat의 형태로 얻을수 있음
+
+### axios
+promise기반으로 node.js와 브라우저에서 사용할 수 있는 http요청을 처리해주는 자바스크립트 패키지
+```
+npm i axios //설치
+
+npm  run dev //개발 서버를 열어둔상태에서 진행
+```
+```js
+import axios from 'axios'
+
+function fetchMovies(){
+  axios
+    .get('https://www.omdbapi.com/?spikey=7035c60c&s=frozen')
+    .then(res => {
+      console.log(res)
+    })
+}
+fetchMovies()
+```
+```html
+<h1>Hello world!</h1>
+<img src="" alt="" width="200">
+```
+```js
+import axios from 'axios'
+
+function fetchMovies(){
+  axios
+    .get('https://www.omdbapi.com/?spikey=7035c60c&s=frozen')
+    .then(res => {
+      const h1El = document.querySelector('h1')
+      const imgEl = document.querySelector('img')
+      h1El.textContent = res.data.Search[0].Title
+      imgEl.src = res.data.Search[0].Poster
+    })
+}
+fetchMovies()
