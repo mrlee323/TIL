@@ -15,6 +15,8 @@ Today I Learned
 - [javascript 블록스코프](https://github.com/mrlee323/TIL/blob/main/js/js_block_scope.md)
 - [javascript 실행컨텍스트](https://github.com/mrlee323/TIL/blob/main/js/js_execution_context.md)
 - [javascript 런타임](https://github.com/mrlee323/TIL/blob/main/js/js_works.md)
+- [javascript 즉시실행함수](https://github.com/mrlee323/TIL/blob/main/js/js_iife.md)
+- [javascript 클로저](https://github.com/mrlee323/TIL/blob/main/js/js_closure.md)
 - [node.js](https://github.com/mrlee323/TIL/blob/main/js/node_js.md)
 - [Javascript 기초(1)](https://github.com/mrlee323/TIL/blob/main/js/js_basic.md)
 - [Javascript 기초(2)](https://github.com/mrlee323/TIL/blob/main/js/js_basic2.md)
