@@ -118,18 +118,41 @@ option으로 받은 speed 객체를 대입해준다.
 html에 슬라이드 구조가 ul,li가아닌 div와 a로 이루어져 있다. 태그가 바뀌어 css가 적용이 안되었기때문에 css도 추가로 수정이 필요하다. 
 ### CSS
 ```css
-* {margin:0; padding:0}
+* {margin:0; padding:0;}
 li {list-style: none;}
-.kind_wrap {border:2px solid black; width:100%; max-width:800px; margin:0 auto; position: relative;}
-.kind_wrap > .kind_slider {overflow: hidden;}
-.kind_wrap > .kind_slider .k_list {position: relative;}
-.kind_wrap > .kind_slider .k_list::after {
-    content:''; display:block; clear:both;
+.kind_wrap {
+    width:100%;
+    max-width: 800px;
+    margin:0 auto;
+    position: relative;
 }
-.kind_wrap > .kind_slider .k_list .k_item {float:left}
-.kind_wrap > .kind_slider img {vertical-align: top;}
-.kind_wrap .arrow > a.prev {position: absolute; left:-50px; top:100px}
-.kind_wrap .arrow > a.next {position: absolute; right:-50px; top:100px;}
+.kind_wrap > .kind_slider{
+  overflow: hidden;
+  position:relative;
+  height: 200px;
+}
+.kind_wrap > .kind_slider .k_list {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.kind_wrap > .kind_slider .k_list .k_item{
+    width: 800px;
+    float: left;
+}
+.kind_wrap > .kind_slider img {
+    vertical-align: top;
+}
+.kind_wrap .arrow > a.prev {
+  position: absolute; 
+  left:-50px; 
+  top:100px;
+}
+.kind_wrap .arrow > a.next {
+  position: absolute; 
+  right:-50px; 
+  top:100px;
+}
 ```
 css에서 .slider와 li 로 되어있던 부분은 .k_list와 .k_item으로 수정해준다.
 ### JS
@@ -142,3 +165,29 @@ slider.classList.add('k_list'); // kslider라는 CSS를 위한 이름추가
   });
 
 const slideCloneLis = slider.querySelectorAll('.k_item'); // 클론을 포함해서 다시 찾기
+```
+이렇게 수정해주면 사용자가 어떠한 태그를 사용해도 해당 태그에 class네임을 동일하게 주면서 작동할 수 있다.
+
+## 예외처리
+사용자가 target과 option을 입력했을때 유효하지않은 값이면 잘못을 알려주는 에러처리를 한다.
+```js
+ const toBeLoaded = document.querySelectorAll(`${target} img`);
+
+  if (toBeLoaded.length === 0) {
+    throw new Error(target + '라는 노드를 찾지 못했습니다.')
+  }//사용자가 slider를 잘못적용했을때
+
+  let loadedImages = 0;
+  ```
+```js
+const OPTION = ((option) => {
+      const OPTION = {...option};
+      if (OPTION.speed < 0){
+        throw new Error(`0이상의 값을 사용하세요`);
+      } else{
+        return Object.freeze(OPTION);
+      }
+    })(option)
+    
+    let speedTime = OPTION.speed; // 슬라이드 속도 제어 
+```
