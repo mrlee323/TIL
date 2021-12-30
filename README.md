@@ -11,7 +11,7 @@ Today I Learned
 - [SCSS basic](https://github.com/mrlee323/TIL/blob/main/HTML_CSS/scss_basic.md)
 - [bootstrap](https://github.com/mrlee323/TIL/blob/main/HTML_CSS/css_bootstrap.md)
 
-## [Javasript](ttps://github.com/mrlee323/TIL/blob/main/js)
+## [Javascript](https://github.com/mrlee323/TIL/blob/main/js)
 - [Javascript 기초(1)](https://github.com/mrlee323/TIL/blob/main/js/js_basic.md)
 - [Javascript 기초(2)](https://github.com/mrlee323/TIL/blob/main/js/js_basic2.md)
 - [Javascript data](https://github.com/mrlee323/TIL/blob/main/js/js_data.md)
