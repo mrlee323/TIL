@@ -44,6 +44,8 @@ Today I Learned
 ## [Vue.js](https://github.com/mrlee323/TIL/blob/main/Vue)
 - [vue기초](https://github.com/mrlee323/TIL/blob/main/Vue/vue_basic.md)
 - [vue문법(1)](https://github.com/mrlee323/TIL/blob/main/Vue/vue_use1.md)
+- [vue문법(2)](https://github.com/mrlee323/TIL/blob/main/Vue/vue_use2.md)
+- [vue components](https://github.com/mrlee323/TIL/blob/main/Vue/vue_components.md)
 
 ## [Git & Github](https://github.com/mrlee323/TIL/blob/main/Git)
 - [git 계정 연결](https://github.com/mrlee323/TIL/blob/main/Git/git_repo.md)
