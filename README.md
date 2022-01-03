@@ -33,6 +33,7 @@ Today I Learned
 - [javascript date구하기](https://github.com/mrlee323/TIL/blob/main/js/js_date.md)
 - [javascript 슬라이드](https://github.com/mrlee323/TIL/blob/main/js/js_slide.md)
 - [Javascript 슬라이드(2)](https://github.com/mrlee323/TIL/blob/main/js/js_slide2.md)
+- [Javascript Object Prototype](https://github.com/mrlee323/TIL/blob/main/js/js_prototype.md)
 
 ## [TypeScript](https://github.com/mrlee323/TIL/blob/main/Typescript)
 - [Typescript 기초](https://github.com/mrlee323/TIL/blob/main/Typescript/ts_basic.md)
@@ -46,7 +47,9 @@ Today I Learned
 - [vue문법(1)](https://github.com/mrlee323/TIL/blob/main/Vue/vue_use1.md)
 - [vue문법(2)](https://github.com/mrlee323/TIL/blob/main/Vue/vue_use2.md)
 - [vue components](https://github.com/mrlee323/TIL/blob/main/Vue/vue_components.md)
-- [vue components](https://github.com/mrlee323/TIL/blob/main/Vue/vue_composition.md)
+- [vue composition](https://github.com/mrlee323/TIL/blob/main/Vue/vue_composition.md)
+- [vue 영화 검색사이트 만들기(1)](https://github.com/mrlee323/TIL/blob/main/Vue/vue_movie-project.md)
+- [vue 영화 검색사이트 만들기(2)](https://github.com/mrlee323/TIL/blob/main/Vue/vue_movie-project2.md)
 
 ## [Git & Github](https://github.com/mrlee323/TIL/blob/main/Git)
 - [git 계정 연결](https://github.com/mrlee323/TIL/blob/main/Git/git_repo.md)
