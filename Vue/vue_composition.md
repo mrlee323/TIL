@@ -111,9 +111,9 @@ export default {
 ```
 
 ## props, context
-
 ```html
 <template>
+  <!-- v-bind="$attrs App.vue 상속 -->
   <div
     v-bind="$attrs"
     class="btn"
@@ -134,13 +134,20 @@ export default {
     }
   },
   emits: ['hello'],
+  //hello event 받아옴
   setup(props, context) {
+    //setup안에서는 this를 사용할 수 없음 
+    //데이터를 가르키는 props를 사용하거나
+    //context를 사용함
+    //context는 $를 제거하고 붙여준다. 
     function hello() {
       context.emit('hello')
+      //this.$emit('hello')
     }
     onMounted(()=> {
-       console.log(props.color)
-        console.log(context.attrs)
+      console.log(props.color)
+      console.log(context.attrs)
+      //this.$attrs  -> context.attrs
     })
     return{
       hello
