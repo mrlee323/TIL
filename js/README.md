@@ -22,3 +22,4 @@ Javascript
 - [javascript date구하기](https://github.com/mrlee323/TIL/blob/main/js/js_date.md)
 - [javascript 슬라이드](https://github.com/mrlee323/TIL/blob/main/js/js_slide.md)
 - [Javascript 슬라이드(2)](https://github.com/mrlee323/TIL/blob/main/js/js_slide2.md)
+- [Javascript Object Prototype](https://github.com/mrlee323/TIL/blob/main/js/js_prototype.md)
