@@ -29,6 +29,7 @@ Today I Learned
 - [javascript reduce()](https://github.com/mrlee323/TIL/blob/main/js/js_reduce.md)
 - [javascript callback](https://github.com/mrlee323/TIL/blob/main/js/js_callback.md)
 - [javascript Promise](https://github.com/mrlee323/TIL/blob/main/js/js_Promise.md)
+- [javascript Promise2](https://github.com/mrlee323/TIL/blob/main/js/js_Promise2.md)
 - [javascript json파일 가져오기](https://github.com/mrlee323/TIL/blob/main/js/js_getData.md)
 - [javascript date구하기](https://github.com/mrlee323/TIL/blob/main/js/js_date.md)
 - [javascript 슬라이드](https://github.com/mrlee323/TIL/blob/main/js/js_slide.md)
