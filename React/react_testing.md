@@ -193,7 +193,7 @@ describe('Button 컴포넌트(@testing-library/react)', ()=>{
     const p = getByText("버튼이 눌리지 않았다")
     expect(p).not.toBeNull();
     expect(p).toBeInstanceOf(HTMLParagraphElement)
-  }) //click이라는 event가 발생했을때 buttonElement가 비활성화상태야? 그리고 5초후 buttonElemnet가 비활성화상태아니야? 그리고 이상태에서 버튼이 눌리지않았다가 HTMLParagraphElement있어?
+  }) //click이라는 event가 발생했을때 buttonElement가 비활성화상태 맞아? 그리고 5초후 buttonElemnet가 비활성화상태아닌거 맞아? 그리고 이상태에서 '버튼이 눌리지않았다'가 HTMLParagraphElement있어?
 })
 ```
 Button2.jsx
@@ -208,6 +208,7 @@ const BUTTON_TEXT = {
 export default function Button() {
 
   const [message, setMessage] = useState(BUTTON_TEXT.NORMAL)
+  
   const timer = useRef()
 
   useEffect(() => {
