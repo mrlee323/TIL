@@ -61,6 +61,10 @@ Today I Learned
 - [react 실전 활용](https://github.com/mrlee323/TIL/blob/main/React/react_practice.md)
 - [react hook](https://github.com/mrlee323/TIL/blob/main/React/react_hook_context.md)
 - [react 단위테스트](https://github.com/mrlee323/TIL/blob/main/React/react_testing.md)
+- [react advanced](https://github.com/mrlee323/TIL/blob/main/React/react_advanced.md)
+- [react 배포하기](https://github.com/mrlee323/TIL/blob/main/React/react_deploy.md)  
+### Redux
+- [redux](https://github.com/mrlee323/TIL/blob/main/React/react_redux.md)
 
 
 ## [Git & Github](https://github.com/mrlee323/TIL/blob/main/Git)
