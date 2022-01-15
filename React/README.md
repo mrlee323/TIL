@@ -13,3 +13,4 @@ React
 - [react 배포하기](https://github.com/mrlee323/TIL/blob/main/React/react_deploy.md)  
 ## redux
 - [redux](https://github.com/mrlee323/TIL/blob/main/React/react_redux.md)
+- [redux advanced(1)](https://github.com/mrlee323/TIL/blob/main/React/react_redux_advanced1.md)
