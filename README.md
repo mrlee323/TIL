@@ -1,7 +1,8 @@
 Today I Learned
-===  
+===
 
 ## [HTML & CSS](https://github.com/mrlee323/TIL/blob/main/HTML_CSS)
+
 - [HTML개요](https://github.com/mrlee323/TIL/blob/main/HTML_CSS/html_basic.md)
 - [CSS개요](https://github.com/mrlee323/TIL/blob/main/HTML_CSS/css_basic.md)
 - [CSS선택자](https://github.com/mrlee323/TIL/blob/main/HTML_CSS/css_selector.md)
@@ -12,6 +13,7 @@ Today I Learned
 - [bootstrap](https://github.com/mrlee323/TIL/blob/main/HTML_CSS/css_bootstrap.md)
 
 ## [Javascript](https://github.com/mrlee323/TIL/blob/main/js)
+
 - [Javascript 기초(1)](https://github.com/mrlee323/TIL/blob/main/js/js_basic.md)
 - [Javascript 기초(2)](https://github.com/mrlee323/TIL/blob/main/js/js_basic2.md)
 - [Javascript data](https://github.com/mrlee323/TIL/blob/main/js/js_data.md)
@@ -37,13 +39,14 @@ Today I Learned
 - [Javascript Object Prototype](https://github.com/mrlee323/TIL/blob/main/js/js_prototype.md)
 
 ## [TypeScript](https://github.com/mrlee323/TIL/blob/main/Typescript)
+
 - [Typescript 기초](https://github.com/mrlee323/TIL/blob/main/Typescript/ts_basic.md)
 - [Typescript 타입](https://github.com/mrlee323/TIL/blob/main/Typescript/ts_type.md)
 - [Typescript 컴파일러](https://github.com/mrlee323/TIL/blob/main/Typescript/ts_compiler.md)
 - [Typescript 타입시스템](https://github.com/mrlee323/TIL/blob/main/Typescript/ts_typesystem.md)
 
-
 ## [Vue.js](https://github.com/mrlee323/TIL/blob/main/Vue)
+
 - [vue기초](https://github.com/mrlee323/TIL/blob/main/Vue/vue_basic.md)
 - [vue문법(1)](https://github.com/mrlee323/TIL/blob/main/Vue/vue_use1.md)
 - [vue문법(2)](https://github.com/mrlee323/TIL/blob/main/Vue/vue_use2.md)
@@ -53,6 +56,7 @@ Today I Learned
 - [vue 영화 검색사이트 만들기(2)](https://github.com/mrlee323/TIL/blob/main/Vue/vue_movie-project2.md)
 
 ## [React](https://github.com/mrlee323/TIL/blob/main/React)
+
 - [react 기초](https://github.com/mrlee323/TIL/blob/main/React/react_basic.md)
 - [react 컴포넌트](https://github.com/mrlee323/TIL/blob/main/React/react_component.md)
 - [react 프로젝트셋팅](https://github.com/mrlee323/TIL/blob/main/React/react_create_project.md)
@@ -62,13 +66,16 @@ Today I Learned
 - [react hook](https://github.com/mrlee323/TIL/blob/main/React/react_hook_context.md)
 - [react 단위테스트](https://github.com/mrlee323/TIL/blob/main/React/react_testing.md)
 - [react advanced](https://github.com/mrlee323/TIL/blob/main/React/react_advanced.md)
-- [react 배포하기](https://github.com/mrlee323/TIL/blob/main/React/react_deploy.md)  
+- [react 배포하기](https://github.com/mrlee323/TIL/blob/main/React/react_deploy.md)
+
 ### Redux
+
 - [redux](https://github.com/mrlee323/TIL/blob/main/React/react_redux.md)
 - [redux advanced(1)](https://github.com/mrlee323/TIL/blob/main/React/react_redux_advanced1.md)
-
+- [redux advanced(2)](https://github.com/mrlee323/TIL/blob/main/React/react_redux_advanced2.md)
 
 ## [Git & Github](https://github.com/mrlee323/TIL/blob/main/Git)
+
 - [git 계정 연결](https://github.com/mrlee323/TIL/blob/main/Git/git_repo.md)
 - [터미널 & vim 명령어](https://github.com/mrlee323/TIL/blob/main/Git/terminal_command.md)
 - [github로 push하기](https://github.com/mrlee323/TIL/blob/main/Git/git_push.md)
@@ -76,6 +83,7 @@ Today I Learned
 - [markdown 작성법](https://github.com/mrlee323/TIL/blob/main/Git/markdown.md)
 
 ## [Firebase](https://github.com/mrlee323/TIL/blob/main/Firebase)
+
 - [firebase 준비하기](https://github.com/mrlee323/TIL/blob/main/Firebase/firebase_ready.md)
 - [firebase database 만들기](https://github.com/mrlee323/TIL/blob/main/Firebase/firebase_database.md)
 - [firebase storage 만들기](https://github.com/mrlee323/TIL/blob/main/Firebase/firebase_storage.md)
