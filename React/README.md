@@ -1,5 +1,4 @@
-React
-===
+# React
 
 - [react 기초](https://github.com/mrlee323/TIL/blob/main/React/react_basic.md)
 - [react 컴포넌트](https://github.com/mrlee323/TIL/blob/main/React/react_component.md)
@@ -10,7 +9,10 @@ React
 - [react hook](https://github.com/mrlee323/TIL/blob/main/React/react_hook_context.md)
 - [react 단위테스트](https://github.com/mrlee323/TIL/blob/main/React/react_testing.md)
 - [react advanced](https://github.com/mrlee323/TIL/blob/main/React/react_advanced.md)
-- [react 배포하기](https://github.com/mrlee323/TIL/blob/main/React/react_deploy.md)  
+- [react 배포하기](https://github.com/mrlee323/TIL/blob/main/React/react_deploy.md)
+
 ## redux
+
 - [redux](https://github.com/mrlee323/TIL/blob/main/React/react_redux.md)
 - [redux advanced(1)](https://github.com/mrlee323/TIL/blob/main/React/react_redux_advanced1.md)
+- [redux advanced(2)](https://github.com/mrlee323/TIL/blob/main/React/react_redux_advanced2.md)
